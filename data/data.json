@@ -1,0 +1,173 @@
+[
+  {
+    "id": 11,
+    "name": "woman 4",
+    "genre": "woman",
+    "price": 305,
+    "imgs": "/images/women-4.jpg",
+    "desc": "about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborio  about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosamperspiciatis quaerat, iusto sunt distinctio tenetur dolor expedita est, natus odio at, possimus magnam accusamus facilis sed reiciendis. Eum?",
+    "stars": ["red", "green", "yellow", "black"]
+  },
+  {
+    "id": 41,
+    "name": "sandel 4",
+    "genre": "man",
+    "price": 52,
+    "imgs": "/images/sandel-4.jpg",
+    "desc": "about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborio  about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosamperspiciatis quaerat, iusto sunt distinctio tenetur dolor expedita est, natus odio at, possimus magnam accusamus facilis sed reiciendis. Eum?",
+    "stars": ["red", "green", "yellow", "blue"]
+  },
+  {
+    "id": 12,
+    "name": "woman 2",
+    "genre": "woman",
+    "price": 18,
+    "imgs": "/images/women-2.jpg",
+    "desc": "about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborio  about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosamperspiciatis quaerat, iusto sunt distinctio tenetur dolor expedita est, natus odio at, possimus magnam accusamus facilis sed reiciendis. Eum?",
+    "stars": ["indigo", "green", "yellow", "blue"]
+  },
+  {
+    "id": 13,
+    "name": "man 3",
+    "genre": "man",
+    "price": 23,
+    "imgs": "/images/man-3.jpg",
+    "desc": "about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborio  about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosamperspiciatis quaerat, iusto sunt distinctio tenetur dolor expedita est, natus odio at, possimus magnam accusamus facilis sed reiciendis. Eum?",
+    "stars": ["red", "indigo", "yellow", "blue"]
+  },
+  {
+    "id": 14,
+    "name": "man 4",
+    "genre": "man",
+    "price": 62,
+    "imgs": "/images/man-4.jpg",
+    "desc": "about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborio  about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosamperspiciatis quaerat, iusto sunt distinctio tenetur dolor expedita est, natus odio at, possimus magnam accusamus facilis sed reiciendis. Eum?",
+    "stars": ["red", "green", "yellow", "blue"]
+  },
+  {
+    "id": 15,
+    "name": "woman 3",
+    "genre": "woman",
+    "price": 85,
+    "imgs": "/images/women-3.jpg",
+    "desc": "about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborio  about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosamperspiciatis quaerat, iusto sunt distinctio tenetur dolor expedita est, natus odio at, possimus magnam accusamus facilis sed reiciendis. Eum?",
+    "stars": ["red", "green", "yellow", "gray"]
+  },
+  {
+    "id": 16,
+    "name": "woman 1",
+    "genre": "woman",
+    "price": 65,
+    "imgs": "/images/women-1.jpg",
+    "desc": "about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborio  about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosamperspiciatis quaerat, iusto sunt distinctio tenetur dolor expedita est, natus odio at, possimus magnam accusamus facilis sed reiciendis. Eum?",
+    "stars": ["red", "green", "rose", "blue"]
+  },
+  {
+    "id": 17,
+    "name": "man 1 ",
+    "genre": "man",
+    "price": 72,
+    "imgs": "/images/man-1.jpg",
+    "desc": "about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborio  about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosamperspiciatis quaerat, iusto sunt distinctio tenetur dolor expedita est, natus odio at, possimus magnam accusamus facilis sed reiciendis. Eum?",
+    "stars": ["red", "orange", "yellow", "blue"]
+  },
+  {
+    "id": 18,
+    "name": "man 2",
+    "genre": "man",
+    "price": 154,
+    "imgs": "/images/man-5.jpg",
+    "desc": "about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborio  about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosamperspiciatis quaerat, iusto sunt distinctio tenetur dolor expedita est, natus odio at, possimus magnam accusamus facilis sed reiciendis. Eum?",
+    "stars": ["red", "green", "yellow", "blue"]
+  },
+  {
+    "id": 19,
+    "name": "man 8",
+    "genre": "man",
+    "price": 78,
+    "imgs": "/images/man-6.jpg",
+    "desc": "about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborio  about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosamperspiciatis quaerat, iusto sunt distinctio tenetur dolor expedita est, natus odio at, possimus magnam accusamus facilis sed reiciendis. Eum?",
+    "stars": ["green", "yellow", "blue"]
+  },
+  {
+    "id": 20,
+    "name": "man 10",
+    "genre": "man",
+    "price": 125,
+    "imgs": "/images/man-7.jpg",
+    "desc": "about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborio  about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosamperspiciatis quaerat, iusto sunt distinctio tenetur dolor expedita est, natus odio at, possimus magnam accusamus facilis sed reiciendis. Eum?",
+    "stars": ["red", "green", "blue"]
+  },
+  {
+    "id": 21,
+    "name": "man 11",
+    "genre": "man",
+    "price": 258,
+    "imgs": "/images/man-8.jpg",
+    "desc": "about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborio  about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosamperspiciatis quaerat, iusto sunt distinctio tenetur dolor expedita est, natus odio at, possimus magnam accusamus facilis sed reiciendis. Eum?",
+    "stars": ["red", "green", "yellow", "blue"]
+  },
+  {
+    "id": 22,
+    "name": "woman 8",
+    "genre": "woman",
+    "price": 140,
+    "imgs": "/images/women-6.jpg",
+    "desc": "about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborio  about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosamperspiciatis quaerat, iusto sunt distinctio tenetur dolor expedita est, natus odio at, possimus magnam accusamus facilis sed reiciendis. Eum?",
+    "stars": ["red", "green", "yellow"]
+  },
+  {
+    "id": 23,
+    "name": "woman 12",
+    "genre": "woman",
+    "price": 17,
+    "imgs": "/images/women-7.jpg",
+    "desc": "about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborio  about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosamperspiciatis quaerat, iusto sunt distinctio tenetur dolor expedita est, natus odio at, possimus magnam accusamus facilis sed reiciendis. Eum?",
+    "stars": ["red", "green", "yellow", "blue"]
+  },
+  {
+    "id": 24,
+    "name": "woman 8",
+    "genre": "woman",
+    "price": 42,
+    "imgs": "/images/women-8.jpg",
+    "desc": "about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborio  about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosamperspiciatis quaerat, iusto sunt distinctio tenetur dolor expedita est, natus odio at, possimus magnam accusamus facilis sed reiciendis. Eum?",
+    "stars": ["red", "green", "yellow", "blue"]
+  },
+  {
+    "id": 25,
+    "name": "woman 9",
+    "genre": "woman",
+    "price": 62,
+    "imgs": "/images/women-9.jpg",
+    "desc": "about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborio  about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosamperspiciatis quaerat, iusto sunt distinctio tenetur dolor expedita est, natus odio at, possimus magnam accusamus facilis sed reiciendis. Eum?",
+    "stars": ["red", "green", "yellow", "blue"]
+  },
+  {
+    "id": 28,
+    "name": "sandel 1",
+    "genre": "woman",
+    "price": 72,
+    "imgs": "/images/sandel-1.jpg",
+    "desc": "about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborio  about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosamperspiciatis quaerat, iusto sunt distinctio tenetur dolor expedita est, natus odio at, possimus magnam accusamus facilis sed reiciendis. Eum?",
+    "stars": ["red", "green", "yellow", "blue"]
+  },
+  {
+    "id": 29,
+    "name": "sandel 3",
+    "genre": "woman",
+    "price": 42,
+    "imgs": "/images/sandel-2.jpg",
+    "desc": "about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborio  about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosamperspiciatis quaerat, iusto sunt distinctio tenetur dolor expedita est, natus odio at, possimus magnam accusamus facilis sed reiciendis. Eum?",
+    "stars": ["red", "green", "yellow", "blue"]
+  },
+  {
+    "id": 30,
+    "name": "sandel 2",
+    "genre": "man",
+    "price": 18,
+    "imgs": "/images/sandel-3.jpg",
+    "desc": "about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborio  about Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosamperspiciatis quaerat, iusto sunt distinctio tenetur dolor expedita est, natus odio at, possimus magnam accusamus facilis sed reiciendis. Eum?",
+    "stars": ["red", "green", "yellow", "blue"]
+  }
+]

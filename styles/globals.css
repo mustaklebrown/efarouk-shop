@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  @apply mb-3 w-full max-w-md mx-auto  uppercase  py-2 rounded-xl bg-yellow-400 hover:text-white font-semibold duration-300 transition hover:bg-yellow-700 text-black;
+}
