@@ -60,15 +60,10 @@ const Navbar = () => {
               products
             </a>
           </Link>
-          {/* <Link href="/cart" passHref>
-            <a className="text-md lg:text-lg font-semibold uppercase ease-in  transition-all duration-200 cursor-pointer hover:bg-yellow-600 hover:text-gray-800  bg-blue-800 px-2 py-1 rounded-md">
-              <FaShoppingCart size={30} />
-            </a>
-          </Link> */}
           <div className="relative cursor-pointer">
             <Link href="/cart">
               <div>
-                <FaShoppingCart />
+                <FaShoppingCart size={25} />
                 <span className="absolute -top-2 -right-2 text-[13px] bg-red-600 h-[18px] w-[18px] rounded-full grid place-items-center text-white">
                   {totalQTY}
                 </span>
@@ -135,9 +130,12 @@ const Navbar = () => {
               onClick={() => opennav()}
               className="text-md lg:text-lg font-semibold uppercase ease-in hover:bg-blue-600 py-4 transition-all duration-200 cursor-pointer flex justify-center items-center hover:text-gray-200 text-center "
             >
-              <span>
+              <div className="relative">
                 <FaShoppingCart size={30} />
-              </span>
+                <span className="absolute -top-2 -right-2 text-[13px] bg-red-600 h-[18px] w-[18px] rounded-full grid place-items-center text-white">
+                  {totalQTY}
+                </span>
+              </div>
             </a>
           </Link>
         </ul>
