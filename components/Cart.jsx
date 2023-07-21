@@ -1,52 +1,24 @@
-import react, { useState, useEffect } from 'react';
+import { useDispatch } from 'react-redux';
 import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 import { FaTrash } from 'react-icons/fa';
 import Image from 'next/image';
-import { useDispatch, useSelector } from 'react-redux';
 import {
   setDecreaseItemQTY,
   setIncreaseItemQTY,
   setRemoveItemFromCart,
 } from '../features/CartSlice';
 
-const Cart = ({ item: { id, name, desc, imgs, price, cartQuantity } }) => {
+const Cart = ({ item }) => {
+  const { id, name, desc, imgs, price, cartQuantity } = item;
   const dispatch = useDispatch();
-  const onRemoveItem = () => {
-    dispatch(
-      setRemoveItemFromCart({
-        id,
-        name,
-        desc,
-        imgs,
-        price,
-        cartQuantity,
-      })
-    );
+
+  const handleQuantityChange = (quantity) => {
+    const action = quantity > 0 ? setIncreaseItemQTY : setDecreaseItemQTY;
+    dispatch(action(item));
   };
 
-  const onIncreaseItemQTY = () => {
-    dispatch(
-      setIncreaseItemQTY({
-        id,
-        name,
-        desc,
-        imgs,
-        price,
-        cartQuantity,
-      })
-    );
-  };
-  const onDecreaseItemQTY = () => {
-    dispatch(
-      setDecreaseItemQTY({
-        id,
-        name,
-        desc,
-        imgs,
-        price,
-        cartQuantity,
-      })
-    );
+  const handleRemoveItem = () => {
+    dispatch(setRemoveItemFromCart(item));
   };
 
   return (
@@ -61,9 +33,9 @@ const Cart = ({ item: { id, name, desc, imgs, price, cartQuantity } }) => {
       <div className="flex gap-2 items-center">
         <div>
           <AiOutlineMinus
-            onClick={onDecreaseItemQTY}
+            onClick={() => handleQuantityChange(cartQuantity - 1)}
             size={30}
-            className="font-extrabold  btn px-3 py-2 text-xl"
+            className="font-extrabold btn px-3 py-2 text-xl"
           />
         </div>
         <div>
@@ -71,9 +43,9 @@ const Cart = ({ item: { id, name, desc, imgs, price, cartQuantity } }) => {
         </div>
         <div>
           <AiOutlinePlus
-            onClick={onIncreaseItemQTY}
+            onClick={() => handleQuantityChange(cartQuantity + 1)}
             size={30}
-            className="font-extrabold btn  px-3 py-2 text-xl"
+            className="font-extrabold btn px-3 py-2 text-xl"
           />
         </div>
       </div>
@@ -82,7 +54,11 @@ const Cart = ({ item: { id, name, desc, imgs, price, cartQuantity } }) => {
           ${price * cartQuantity}
         </p>
         <button>
-          <FaTrash size={25} onClick={onRemoveItem} className="text-red-500" />
+          <FaTrash
+            size={25}
+            onClick={handleRemoveItem}
+            className="text-red-500"
+          />
         </button>
       </div>
     </div>

@@ -18,9 +18,9 @@ export default function Home() {
       <Hero />
       <Fproducts />
       <About />
-      <Products />
       <Services />
-      <Gallery />
+      {/* <Gallery /> */}
+      <Products />
     </div>
   );
 }
