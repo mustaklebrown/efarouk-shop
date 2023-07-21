@@ -13,7 +13,7 @@ const CardProduct = ({ product, onAddToCart }) => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center w-full max-w-sm mx-auto">
+    <div className="flex max-w-[450px]  flex-col items-center justify-center w-full ">
       <Link href={`/products/${product.id}`} className="cursor-pointer">
         <div
           className="w-full h-64 bg-gray-300 bg-center cursor-pointer bg-cover rounded-lg shadow-md"

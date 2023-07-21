@@ -12,13 +12,13 @@ const Products = () => {
     dispatch(setAddItemToCart(product));
   };
   return (
-    <div id="gallery" className="max-w-7xl mx-auto px-20 my-10">
+    <div id="gallery" className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 my-10">
       <div className="mb-10 text-center">
         <h1 className="text-3xl font-bold  uppercase bg-clip-text text-transparent bg-gradient-to-r from-green-400  to-rose-700   ">
           our products
         </h1>
       </div>
-      <div className=" w-full gap-4 place-content-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-auto items-center justify-center">
+      <div className=" w-full gap-4 place-content-center place-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
         {data?.slice(0, 6).map((product) => {
           return (
             <CardProduct
